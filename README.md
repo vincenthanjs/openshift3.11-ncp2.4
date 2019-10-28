@@ -9,7 +9,7 @@ The high level steps remains unchanged. However, the part 5 in this case has bee
 
 # Table Of Contents
 [test] (https://github.com/vincenthanjs/openshift3.11-ncp2.4)
-[Openshift with NSX-T Installation Part 1 Overview] ()
+[Openshift with NSX-T Installation Part 1 Overview] ()
 [Openshift with NSX-T Installation Part 2: NSX-T] ()
 [Openshift with NSX-T Installation Part 3: RHEL Preparation] ()
 [Openshift with NSX-T Installation Part 4: Openshift Installation] ()
