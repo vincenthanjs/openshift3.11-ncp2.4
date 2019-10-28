@@ -50,7 +50,7 @@ The version I used: rhel-server-7.6-x86_64-dvd.iso
 
 # Openshift Installation & NSX-T NCP Integration
 
-    1. On every node, install docker.
+1. On every node, install docker.
 <pre><code>
         yum install docker-1.13.1
 </code></pre>
@@ -71,9 +71,8 @@ The version I used: rhel-server-7.6-x86_64-dvd.iso
     4. On the master node or jumphost, run the deploy-cluster playbook.
 <pre><code>
         ansible-playbook /usr/share/ansible/openshift-ansible/playbooks/deploy_cluster.yml
-</code></pre>
+</code>![](2019-10-28-19-36-47.png)</pre>
     
-![](2019-10-28-19-36-47.png)
 
-    Success!!!
+    5. Success!!!
     ![](2019-10-28-19-38-15.png)
