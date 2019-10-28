@@ -8,12 +8,12 @@ The last few blog posts I wrote about the installation steps for Openshift Conta
 The high level steps remains unchanged. However, the part 5 in this case has been streamline into the Openshift installation.
 
 # Table Of Contents
-[Openshift with NSX-T Installation Part 1 Overview]()
-[Openshift with NSX-T Installation Part 2: NSX-T]()
-[Openshift with NSX-T Installation Part 3: RHEL Preparation]()
-[Openshift with NSX-T Installation Part 4: Openshift Installation]()
-[Openshift with NSX-T Installation Part 5: NCP and CNI Integration (Combine into Part 4)]()
-[Openshift with NSX-T Installation Part 6: Demo App]()
+[Openshift with NSX-T Installation Part 1 Overview](https://github.com/vincenthanjs/openshift3.11-ncp2.4)
+[Openshift with NSX-T Installation Part 2: NSX-T](https://github.com/vincenthanjs/openshift3.11-ncp2.4)
+[Openshift with NSX-T Installation Part 3: RHEL Preparation](https://github.com/vincenthanjs/openshift3.11-ncp2.4)
+[Openshift with NSX-T Installation Part 4: Openshift Installation](https://github.com/vincenthanjs/openshift3.11-ncp2.4)
+[Openshift with NSX-T Installation Part 5: NCP and CNI Integration (Combine into Part 4)](https://github.com/vincenthanjs/openshift3.11-ncp2.4)
+[Openshift with NSX-T Installation Part 6: Demo App](https://github.com/vincenthanjs/openshift3.11-ncp2.4)
 
 
 ** For fellow VMware colleagues, to save you time for preparing the RHEL templates and VMs for OCP install, I have exported out the VMs from my Lab. I have uploaded in onedrive. Email me, I will happily share the link to download. Size is about 7GB.
