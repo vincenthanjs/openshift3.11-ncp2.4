@@ -39,14 +39,17 @@ Software Download:
 
 Here is the complete list of software that needs to be downloaded to deploy Openshift Container Platform and NSX-T.
 Software 	Download URL
-NSX-T 	nsx-unified-appliance-2.3.0.0.0.10085405.ova (From 2.2 onwards, you can deploy NSX-T Controllers and Edges from the NSX-T Manager)
+1) NSX-T 	nsx-unified-appliance-2.3.0.0.0.10085405.ova (From 2.2 onwards, you can deploy NSX-T Controllers and Edges from the NSX-T Manager)
 https://my.vmware.com/web/vmware/details?productId=673&downloadGroup=NSX-T-230
-nsx-container-2.3.2.11695762.zip https://my.vmware.com/web/vmware/details?productId=673&downloadGroup=NSX-T-230#drivers_tools
+
+2) nsx-container-2.3.2.11695762.zip https://my.vmware.com/web/vmware/details?productId=673&downloadGroup=NSX-T-230#drivers_tools
 
 ![](2019-10-28-19-34-07.png)
 
-RHEL 	https://access.redhat.com/downloads/
+3) RHEL 	https://access.redhat.com/downloads/
 The version I used: rhel-server-7.6-x86_64-dvd.iso
+
+
 
 # Openshift Installation & NSX-T NCP Integration
 
@@ -108,7 +111,7 @@ You can also access the Openshift Container Platform web console using the https
 # Demo Test App
 Alright. Now lets test whether is the Container Network Interface(CNI) and NCP are working correctly by deploying a demo test application. I normally use the Yelb app for my demo and testing.
 
-    1) On the master node,
+1) On the master node,
 
         oc new-project yelb
         git clone https://github.com/vincenthanjs/yelb-demo.git
@@ -116,7 +119,7 @@ Alright. Now lets test whether is the Container Network Interface(CNI) and NCP a
 ![](2019-10-28-20-21-58.png)
 
      
-    2) You will need to add policy before you can deploy the Pods. If not you will error in deploying the containers.
+2) You will need to add policy before you can deploy the Pods. If not you will error in deploying the containers.
 
         oc adm policy add-scc-to-user anyuid -z default
         oc adm policy add-scc-to-user anyuid -z router
@@ -125,26 +128,26 @@ Alright. Now lets test whether is the Container Network Interface(CNI) and NCP a
 
 ![](2019-10-28-20-22-08.png)
     
-    3) Now, you can deploy the yelb app.
+3) Now, you can deploy the yelb app.
 
         oc create -f yelb-app.yaml
 
 ![](2019-10-28-20-22-20.png)
     
-    4) Watch the containers creating.
+4) Watch the containers creating.
 
         watch oc get pod
 
 ![](2019-10-28-20-22-31.png)
 ![](2019-10-28-20-22-37.png)
     
-    5) NSX-T Load Balancer supports Ingress service type.
+5) NSX-T Load Balancer supports Ingress service type.
 
         oc get all
 
 ![](2019-10-28-20-22-48.png)
     
-    6) Previously I already had a wildcard domain already pointed to the Openshift Load Balancer virtual IP.
+6) Previously I already had a wildcard domain already pointed to the Openshift Load Balancer virtual IP.
 ![](2019-10-28-20-22-59.png)
 
 You can watch the full Openshift Container Platform installation and integration with NSX-T NCP over here.
