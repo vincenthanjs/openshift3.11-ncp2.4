@@ -62,8 +62,9 @@ The version I used: rhel-server-7.6-x86_64-dvd.iso
 <pre><code>
         docker load -i /root/nsx-container-2.3.2.11695762/Kubernetes/nsx-ncp-rhel-2.3.2.11695762.tar
         docker image tag registry.local/2.3.2.11695762/nsx-ncp-rhel nsx-ncp
+        ![](2019-10-28-19-37-36.png)
 </code></pre>
-    ![](2019-10-28-19-37-36.png)
+    
     4. On the master node or jumphost, run the deploy-cluster playbook.
 <pre><code>
         ansible-playbook /usr/share/ansible/openshift-ansible/playbooks/deploy_cluster.yml
