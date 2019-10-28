@@ -78,3 +78,9 @@ Defined within NSX-T
 Here is a logical diagram of my planned Openshift + NSX-T deployment:
 
 ![](2019-10-28-21-27-15.png)
+
+[Back to Table of Contents](#Table-Of-Contents)
+
+This concludes Part 1 which gave you an overview of the whole installation and planning process. In Part 2, we will go through the configuration of NSX-T. 
+
+[Openshift with NSX-T Installation Part 2: NSX-T](https://github.com/vincenthanjs/openshift3.11-ncp2.4/blob/master/Part2-NSX-T/)

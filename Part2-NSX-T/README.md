@@ -174,4 +174,8 @@ To verify connectivity to NSX-T Networks as well as routing between physical/vir
     10.11.1.1 (Downlink Router Port to our Openshift Management Cluster network)
     10.197.1.4 (Uplink Router Port)
 
-In the next blog post, we will start our Openshift deployment starting with RHEL preparation.
+[Back to Table of Contents](#Table-Of-Contents)
+
+This concludes Part 2 which we went through the configuration of NSX-T. In Part 3, we will start our Openshift deployment starting with RHEL preparation. 
+
+[Openshift with NSX-T Installation Part 3: RHEL Preparation](https://github.com/vincenthanjs/openshift3.11-ncp2.4/tree/master/Part3-RHEL-Prepare/)
