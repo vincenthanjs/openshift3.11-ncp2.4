@@ -52,17 +52,17 @@ The good part of NSX-T is that you can select which hosts you would like to prep
 
 ![](2019-10-28-21-27-30.png)
 
-Compute/Storage
-VM 	CPU 	MEM 	DISK
-NSX-T Manager 	4 	16GB 	140GB
-NSX-T Controller x 3 	4 	16GB 	120GB
-NSX-Edge x 2 (Medium Size) 	4 	8GB 	120GB
-Openshift Master 	4 	16GB 	40GB
-Openshift Node01 	4 	16GB 	40GB
-Openshift Node02 	4 	16GB 	40GB
+# Compute/Storage
+0) VM 	CPU 	MEM 	DISK
+1) NSX-T Manager 	4 	16GB 	140GB
+2) NSX-T Controller x 3 	4 	16GB 	120GB
+3) NSX-Edge x 2 (Medium Size) 	4 	8GB 	120GB
+4) Openshift Master 	4 	16GB 	40GB
+5) Openshift Node01 	4 	16GB 	40GB
+6) Openshift Node02 	4 	16GB 	40GB
 			
 
-Networking
+# Networking
 
 Defined within your physical or virtual network infrastructure
 
