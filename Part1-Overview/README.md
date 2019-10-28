@@ -1,4 +1,4 @@
-#Openshift with NSX-T Installation Part 1: Overview
+# Openshift with NSX-T Installation Part 1: Overview
 
 The past few days I have been involved in an Openshift + NSX-T POC. In fact, 2 POCs because we setup one time at the customer lab and at the same I also repeat the same steps in my own lab so that I can learn as well. Before I proceed further, I would to shout out to Yasen, the NSBU TPM to guide me on the installation of the Openshift and integrating with NSX-T. Without his guidance and his help with the POC, this article would not be possible. As a promise, I would write a blog on the installation because I believe many in the community and my peers would need help in setting this up.
 
