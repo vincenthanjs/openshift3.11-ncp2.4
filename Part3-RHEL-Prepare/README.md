@@ -34,7 +34,9 @@ Ping the gateway and ping 8.8.8.8 to test whether you have access to Internet.
 Step 3: Follow the installation guide to install all the pre-req. Run the following commands.
 ![](2019-10-28-21-43-35.png)
 
+<pre><code>
 subscription-manager register –username=<Redhat Openshift Username>
+</code></pre>
 
 ![](2019-10-28-21-43-47.png)
 
