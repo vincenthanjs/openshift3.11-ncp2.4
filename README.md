@@ -124,22 +124,26 @@ Alright. Now lets test whether is the Container Network Interface(CNI) and NCP a
         oc adm policy add-scc-to-user anyuid -z deployer
 
 ![](2019-10-28-20-22-08.png)
+    
     3) Now, you can deploy the yelb app.
 
         oc create -f yelb-app.yaml
 
 ![](2019-10-28-20-22-20.png)
+    
     4) Watch the containers creating.
 
         watch oc get pod
 
 ![](2019-10-28-20-22-31.png)
 ![](2019-10-28-20-22-37.png)
+    
     5) NSX-T Load Balancer supports Ingress service type.
 
         oc get all
 
 ![](2019-10-28-20-22-48.png)
+    
     6) Previously I already had a wildcard domain already pointed to the Openshift Load Balancer virtual IP.
 ![](2019-10-28-20-22-59.png)
 
