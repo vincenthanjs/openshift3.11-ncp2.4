@@ -31,7 +31,7 @@ Components:
 
     Compute – vSphere 6.7+ (vCenter Server + ESXi) and Enterprise Plus license
     Storage – VSAN or other vSphere Datastores
-    Networking & Security – NSX-T 2.3
+    Networking & Security – NSX-T 2.3 (Works for NSX-T 2.4.x as well)
     Openshift Container Platform 3.11 Enterprise
     RHEL 7.6
 
@@ -42,7 +42,13 @@ Software 	Download URL
 1) NSX-T 	nsx-unified-appliance-2.3.0.0.0.10085405.ova (From 2.2 onwards, you can deploy NSX-T Controllers and Edges from the NSX-T Manager)
 https://my.vmware.com/web/vmware/details?productId=673&downloadGroup=NSX-T-230
 
+(Works for NSX-T 2.4.x as well)
+https://my.vmware.com/web/vmware/details?productId=673&downloadGroup=NSX-T-240 
+
 2) nsx-container-2.3.2.11695762.zip https://my.vmware.com/web/vmware/details?productId=673&downloadGroup=NSX-T-230#drivers_tools
+
+(Works for NCP 2.4.x as well)
+https://my.vmware.com/web/vmware/details?productId=673&downloadGroup=NSX-T-240#drivers_tools
 
 ![](2019-10-28-19-34-07.png)
 
