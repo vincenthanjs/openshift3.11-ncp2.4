@@ -1,3 +1,16 @@
+# Table Of Contents
+[Openshift with NSX-T Installation Part 1 Overview](https://github.com/vincenthanjs/openshift3.11-ncp2.4/blob/master/Part1-Overview/)
+
+[Openshift with NSX-T Installation Part 2: NSX-T](https://github.com/vincenthanjs/openshift3.11-ncp2.4/blob/master/Part2-NSX-T/)
+
+[Openshift with NSX-T Installation Part 3: RHEL Preparation](https://github.com/vincenthanjs/openshift3.11-ncp2.4/tree/master/Part3-RHEL-Prepare/)
+
+[Openshift with NSX-T Installation Part 4: Openshift Installation](https://github.com/vincenthanjs/openshift3.11-ncp2.4)
+
+[Openshift with NSX-T Installation Part 5: NCP and CNI Integration (Combine into Part 4)](https://github.com/vincenthanjs/openshift3.11-ncp2.4)
+
+[Openshift with NSX-T Installation Part 6: Demo App(Combine into Part 4)](https://github.com/vincenthanjs/openshift3.11-ncp2.4)
+
 # Openshift with NSX-T Installation Part 2: NSX-T
 
 In this article, we are now going to start configuring NSX-T so that it will be ready for us to install Openshift and consume the networking and security services provided by NSX-T. The result is that Openshift can deliver on demand provisioning of all NSX-T components: Container Network Interface (CNI), NSX-T Container Plugin (NCP) POD, NSX Node Agent POD, etc) automatically when a new Kubernetes (K8S) Cluster is requested, all done with a single CLI or API call. In addition, Openshift also provides a unique capability through its integration with NSX-T to enable network micro-segmentation at the K8S namespace level which allows Cloud/Platform Operators to manage access between application and/or tenant users at at a much finer grain level than was possible before which is really powerful!
