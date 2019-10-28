@@ -150,4 +150,5 @@ Alright. Now lets test whether is the Container Network Interface(CNI) and NCP a
 ![](2019-10-28-20-22-59.png)
 
 You can watch the full Openshift Container Platform installation and integration with NSX-T NCP over here.
-<iframe width="542" height="315" src="https://www.youtube.com/embed/5ZlggXKXwL8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[![ocpwithncp](http://img.youtube.com/vi/5ZlggXKXwL8/0.jpg)](https://www.youtube.com/embed/5ZlggXKXwL8 "How to install Openshift Container Platform installation and integration with NSX-T NCP")
