@@ -8,7 +8,7 @@ The last few blog posts I wrote about the installation steps for Openshift Conta
 The high level steps remains unchanged. However, the part 5 in this case has been streamline into the Openshift installation.
 
 # Table Of Contents
-[Openshift with NSX-T Installation Part 1 Overview](https://github.com/vincenthanjs/openshift3.11-ncp2.4)
+[Openshift with NSX-T Installation Part 1 Overview](https://github.com/vincenthanjs/openshift3.11-ncp2.4/blob/master/Part1-Overview/README.md)
 
 [Openshift with NSX-T Installation Part 2: NSX-T](https://github.com/vincenthanjs/openshift3.11-ncp2.4)
 
