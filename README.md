@@ -94,7 +94,6 @@ If the NCP integration is successful, you should not see any error logs
     oc logs nsx-ncp-279qf -n nsx-system | grep error
 
 ![](2019-10-28-20-20-57.png)
-Screen Shot 2019-03-22 at 11.42.33 AM
 
 You can also do that for the node agent. However, there are 2 containers in the node-agent pod, you will need to specify the container using -c.
 
@@ -151,4 +150,4 @@ Alright. Now lets test whether is the Container Network Interface(CNI) and NCP a
 ![](2019-10-28-20-22-59.png)
 
 You can watch the full Openshift Container Platform installation and integration with NSX-T NCP over here.
-https://youtu.be/5ZlggXKXwL8 
+<iframe width="542" height="315" src="https://www.youtube.com/embed/5ZlggXKXwL8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
