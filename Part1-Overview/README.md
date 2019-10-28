@@ -32,14 +32,16 @@ Software Download:
 
 Here is the complete list of software that needs to be downloaded to deploy Openshift and NSX-T.
 Software 	Download URL
-NSX-T 	 https://my.vmware.com/web/vmware/details?productId=673&downloadGroup=NSX-T-210
+1) NSX-T 	 https://my.vmware.com/web/vmware/details?productId=673&downloadGroup=NSX-T-210
 nsx-unified-appliance-2.1.0.0.0.7395503.ova
 nsx-edge-2.1.0.0.0.7395502.ova
 nsx-controller-2.1.0.0.0.7395493.ova
 nsx-container-2.1.3.8356796.zip
-RHEL 	https://access.redhat.com/downloads/
+2) RHEL 	https://access.redhat.com/downloads/
 The version I used: rhel-server-7.5-x86_64-dvd.iso
-Screen Shot 2018-05-16 at 3.01.02 PM
+
+![](2019-10-28-21-30-54.png)
+
 Lab Environment:
 
 For my Lab, I will be using two physical hosts. One host for the NSX-T management components and the other host to be the NSX-T Transport Node which will house the Openshift VMs which is one Master and two Node VMs. You can see there are 3 physical nodes in my cluster because I am using vSAN here as my shared storage. My lab is a non-nested setup but at the customer POC, we setup a nested environment using William Lam NSX-T Auto-Deploy Script and that works as well.
